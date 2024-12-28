@@ -573,7 +573,7 @@ body {
   color: turquoise;
 }
 .improveELetter {
-  font-size: 42px;
+  font-size: 65%;
   font-weight: 200;
   color: midnightblue;
   text-decoration: double;
@@ -597,7 +597,7 @@ body {
   color: seagreen;
 }
 .theirELetter {
-  font-size: 149px;
+  font-size: 3em;
   font-family: "Eater";
   font-weight: 200;
   text-decoration: line-through;
@@ -622,7 +622,7 @@ body {
 /* ROOT word */
 
 .rootRLetter {
-  font-size: 69px;
+  font-size: 2.5em;
   font-weight: 900;
   color: darkorchid;
   font-family: "Agu Display", serif;
@@ -637,7 +637,7 @@ body {
 }
 .rootOTwoLetter {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 87px;
+  font-size: 200%;
   font-weight: 600;
   color: seagreen;
   text-decoration: wavy;
@@ -706,15 +706,8 @@ body {
   text-transform: uppercase;
   color: yellow;
 }
-.exclamation-mark {
-  font-size: 72px;
-  font-weight: bold;
-  color: aqua;
-  text-decoration: underline;
-  text-transform: uppercase;
-  font-family: "Piazolla", sans-serif;
-}
-.question-mark {
+
+.question-mark, .exclamation-mark {
   font-size: 40px;
   font-weight: 800;
   color: darkolivegreen;
